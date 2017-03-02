@@ -10,6 +10,6 @@ class ContentController extends Controller
 {
     public function sayHello(Twig $twig):string
     {
-        return $twig->render('HelloWorld::helloWorld/hello/hello.twig');
+        return $twig->render('HelloWorld::/hello/hello.twig');
     }
 }
